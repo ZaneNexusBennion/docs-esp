@@ -1,4 +1,3 @@
 site_name: ESP Uploader v3.0 
-nav:
-  - Home: index.md
-  - About: about.md
+# nav:
+#   - Home: index.md
