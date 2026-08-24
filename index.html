@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="None">
+        
+        
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>ESP Uploader v3.0</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/fontawesome.min.css" rel="stylesheet">
+        <link href="css/brands.min.css" rel="stylesheet">
+        <link href="css/solid.min.css" rel="stylesheet">
+        <link href="css/v4-font-face.min.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body class="homepage">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href=".">ESP Uploader v3.0</a>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#esp-docs" class="nav-link">ESP Docs</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#esp-dashboard" class="nav-link">ESP Dashboard</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#highlights" class="nav-link">Highlights</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#roles" class="nav-link">Roles</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#to-do" class="nav-link">To-Do:</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#overall" class="nav-link">Overall</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#contributor-dashboard" class="nav-link">Contributor Dashboard</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#admin-dashboard" class="nav-link">Admin Dashboard</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#management" class="nav-link">Management</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#notes" class="nav-link">Notes</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#functionalities" class="nav-link">Functionalities</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#super-admin-pages" class="nav-link">Super Admin Pages</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#contributor-pages" class="nav-link">Contributor Pages</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#administrator-pages" class="nav-link">Administrator Pages</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#webservice-actions" class="nav-link">Webservice Actions</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#management_1" class="nav-link">Management</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="esp-docs">ESP Docs</h1>
+<h2 id="esp-dashboard">ESP Dashboard</h2>
+<p>Data Upload application including installed and custom parser. </p>
+<p>Oracle APEX application to interface and provide workflow to ESP Indicators contributions help to streamline data to Stock Assessments.</p>
+<p><strong>Agency</strong>: NOAA (Alaska)</p>
+<p><strong>NOAA</strong>: Kalei, Eren, Shannon</p>
+<p><strong>PSMFC</strong>: Matt, Bob</p>
+<p><strong>PM</strong>: Camille</p>
+<p><strong>Development</strong>: Frank</p>
+<h2 id="highlights">Highlights</h2>
+<ul>
+<li>Keep Database Design Agile</li>
+<li>Authentication Required</li>
+<li>Interactive Grid &amp; Data Upload</li>
+<li>Data Manager User</li>
+</ul>
+<p>It’s a reorganization of the existing tool and addresses issues like: quick access to main functionalities from admin perspective, also introduces/renames the concept of “Super Admin”, which has access to all modules and application settings, and invite other users with existing account in PSMFC.</p>
+<h2 id="roles">Roles</h2>
+<ul>
+<li><strong>Super Admin</strong>: access to all modules</li>
+<li><strong>Admin</strong>: must assign modules</li>
+<li><strong>Contributor</strong>: must assign modules</li>
+</ul>
+<h2 id="to-do">To-Do:</h2>
+<ul>
+<li>Update User Guide</li>
+<li>Add SARA Interactive Grid under Administration</li>
+<li>Fix Email Notifications: upload, indicator summary, delete, comments and approval</li>
+<li>Fix email URL</li>
+<li>Ensure email logic is based on environment</li>
+<li>Complete Email Notifications section</li>
+</ul>
+<h2 id="overall">Overall</h2>
+<p>Contributor and Admin log in and they can upload, view data and approve.</p>
+<ul>
+<li>Don’t display anything if we have N/A or missing year just don’t display anything for the series.</li>
+<li>Copy and past defect in Indicator Summary for AKFIN Source indicators</li>
+<li>12:00 AM (30 min): Prepare demo &amp; testing for Shannon and Kalei</li>
+</ul>
+<h2 id="contributor-dashboard">Contributor Dashboard</h2>
+<h2 id="admin-dashboard">Admin Dashboard</h2>
+<h2 id="management">Management</h2>
+<h2 id="notes">Notes</h2>
+<p>The tendency shows the tool is nothing but a collaboration concept with two roles: admin and contributors whom might used one or different templates for the data, templates available based on role: ESP template (v1, v2, v2.1, v3, etc..), SARA (v1.0, v2), ESR (coming soon).</p>
+<p>** Collaboration with other regions (ex: Northeast): The super admin creates a module, this would allow the data be isolated from other modules otherwise can be segmented within the module utilizing the Intended ESP.</p>
+<p>Scenario 1. Northeast also wants to collaborate and use the tool to bring together their indicators, they can create their Intended ESP which later can be used to group the Indicators that will be assign to the contributors.</p>
+<p>Scenario 2. Northeast wants to create their module which could also result in a different webservice or webservice endpoint since the data would be isolated from the module level.</p>
+<p>In both scenarios BYOD 3.0 provides coverage.</p>
+<p><strong>VERY IMPORTANT</strong>:</p>
+<p>The different modules must used the same database model and potential enhancements to support extra complexities.</p>
+<ul>
+<li>Use module table: User Modules</li>
+</ul>
+<h2 id="functionalities">Functionalities</h2>
+<ul>
+<li><strong>CRUD Operations</strong>: Source Target, Comments, Lookup Tables (Modules, Data Sources, Databases, Filetypes…)</li>
+<li><strong>Source Target Workflow</strong>: Create a Source Target, Submission &amp; Store Files, Parse File (Templates), Validate Data, Error Handling, Approval, Rejection, Removal</li>
+<li>
+<p><strong>Email Notification</strong>: Handles queuing and send email notifications, also handles email scheduling.</p>
+</li>
+<li>
+<p>Parser Package: supports parsing different template files to the database.</p>
+</li>
+<li>
+<p>Email Package: supports email scheduling for different groups.</p>
+</li>
+<li>
+<p>Schedule Notification: send email at specific time, select a list of users, include template, last year upload, user guide.</p>
+</li>
+<li>
+<p>Create Email Subject, Email Body, Email Footer, Sender, Receiver, Template, </p>
+</li>
+<li>
+<p>Create ESP Procedure: allows admin create ESP and necessary database objects to function</p>
+</li>
+<li>
+<p>CREATE_ESP_TABLES process</p>
+</li>
+<li>
+<p>Create SARA Procedure: allows admin create SARA and necessary database objects to function</p>
+</li>
+</ul>
+<h2 id="super-admin-pages">Super Admin Pages</h2>
+<ul>
+<li>
+<p><strong>Dashboard</strong></p>
+</li>
+<li>
+<p><strong>super_admin_metrics_v</strong>: needs definition (Ask: metrics across all modules)</p>
+</li>
+<li>
+<p><strong>Management</strong></p>
+</li>
+</ul>
+<h2 id="contributor-pages">Contributor Pages</h2>
+<ul>
+<li>
+<p><strong>Dashboard</strong></p>
+</li>
+<li>
+<p><strong>contributor_metrics_v</strong>: sources badge list</p>
+</li>
+<li><strong>contributor_targets_v</strong>: return list of indicators assigned to user sorted by priority, time</li>
+<li><strong>contributor_targets_archived_v</strong>: return list of indicators retired that was contributed by user</li>
+</ul>
+<h2 id="administrator-pages">Administrator Pages</h2>
+<ul>
+<li>
+<p><strong>Dashboard</strong></p>
+</li>
+<li>
+<p><strong>admin_metrics_v</strong>: sources badge list</p>
+</li>
+<li>
+<p><strong>admin_recent_actions_v</strong>: </p>
+</li>
+<li>
+<p><strong>Create Indicator</strong></p>
+</li>
+</ul>
+<h2 id="webservice-actions">Webservice Actions</h2>
+<ul>
+<li><strong>Webservice Logs</strong></li>
+<li><strong>Update Webservice</strong></li>
+</ul>
+<h2 id="management_1">Management</h2>
+<ul>
+<li>
+<p>Modify Indicator Metadata and/or e CT Assignee</p>
+</li>
+<li>
+<p>Archive Indicator (Retire)</p>
+</li>
+<li>
+<p>Indicator Page</p>
+</li>
+<li>
+<p>Upload Indicator</p>
+</li>
+<li>
+<p>Indicator Metadata (admin version)</p>
+</li>
+<li>
+<p>Submission Review</p>
+</li>
+<li>
+<p>Comment History</p>
+</li>
+<li>
+<p>Approve Indicator</p>
+</li>
+<li>
+<p>Remove Indicator</p>
+</li>
+<li>
+<p>Administration</p>
+</li>
+<li>
+<p>Webservice Actions</p>
+</li>
+<li>
+<p><strong>Target Page</strong></p>
+</li>
+<li>
+<p><strong>submissions_by_target_v</strong>: return list of submission by indicators</p>
+</li>
+<li>
+<p><strong>collections</strong>: display data [time series comparison, indicator data, indicator summary]</p>
+</li>
+<li>
+<p><strong>Submission Page</strong></p>
+</li>
+<li>
+<p>Indicator Metadata</p>
+</li>
+<li>Submission Review</li>
+<li>Comment History</li>
+<li>Remove Indicator</li>
+</ul></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = ".",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="js/base.js"></script>
+        <script src="search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
+
+<!--
+MkDocs version : 1.6.1
+Build Date UTC : 2026-08-24 19:37:38.992612+00:00
+-->
