@@ -1,1 +1,4 @@
-site_name: My Docs
+site_name: ESP Uploader v3.0 
+nav:
+  - Home: index.md
+  - About: about.md
